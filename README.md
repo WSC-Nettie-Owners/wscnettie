@@ -29,18 +29,19 @@ Check out the [current deployment!][Deployment]
 
 This section outlines how to contribute to this project.
 
-1. Become a collaborator on this project.
-2. Clone this project to your local machine.
-3. Request access to the environment variables.
-4. Create a new branch from the `staging` branch.
-5. Make changes to your branch.
-6. Change the version number in `package.json`.
-7. Push your branch to GitHub.
-8. Create a pull request from your branch to the `staging` branch.
-9. Wait for the pull request to be reviewed.
-10. Merge the pull request.
-11. Delete your branch.
-12. Repeat steps 3-10.
+1. Add your skills to your profile's README.
+2. Become a collaborator on this project.
+3. Clone this project to your local machine.
+4. Request access to the environment variables.
+5. Create a new branch from the `staging` branch.
+6. Make changes to your branch.
+7. Change the version number in `package.json`.
+8. Push your branch to GitHub.
+9. Create a pull request from your branch to the `staging` branch.
+10. Wait for the pull request to be reviewed.
+11. Merge the pull request.
+12. Delete your branch.
+13. Repeat steps 5-12.
 
 ---
 
@@ -217,29 +218,51 @@ This section outlines the extensions I use for this project. These are very help
 
 - `Indent Rainbow` - Makes indentation easier to see.
 
-- `Path Intellisense` - Gives path suggestions and autocompletion. 
+- `Path Intellisense` - Gives path suggestions and autocompletion.
 
-- `Code Spell Checker` - Used for spell checking. 
+- `Code Spell Checker` - Used for spell checking.
 
-- `Polacode` - Used for taking screenshots of code. 
+- `Polacode` - Used for taking screenshots of code.
 
-- `Import Cost` - Used for seeing the size of imports. 
+- `Import Cost` - Used for seeing the size of imports.
 
-- `Highlight Matching Tag` - Used for highlighting matching tags. 
+- `Highlight Matching Tag` - Used for highlighting matching tags.
 
-- `Auto Rename Tag` - Used for renaming matching tags. 
+- `Auto Rename Tag` - Used for renaming matching tags.
 
-- `Auto Close Tag` - Used for closing matching tags. 
+- `Auto Close Tag` - Used for closing matching tags.
 
 - `Advanced New File` - Allows you to create new files in the current directory from the keyboard.
 
-- `vscode-pets` - PETS! 
+- `vscode-pets` - PETS!
 
 - `WakaTime` - Used for tracking time spent on projects.
 
 - `SynthWave '84` - A nice theme for VSCode.
 
 - `Material Icon Theme` - Nice icons for VSCode.
+
+- `Dotenv Official +Vault` - Used for .env files.
+
+- `Edit csv` - Gives a table UI for CSV files.
+
+- `Excel Viewer` - Gives a table UI for Excel files.
+
+- `Markdown Preview GitHub Styling` - Used for Markdown files. You can use this to preview Markdown files.
+
+- `markdownlint` - Used for linting Markdown files.
+
+- `npm Intellisense` - Used for npm autocompletion in import statements.
+
+- `Svelte for VS Code` - Used for Svelte.
+
+- `Svelte 3 Snippets` - Used for Svelte.
+
+- `Svelte Intellisense` - Used for Svelte.
+
+- `VS Color Picker` - Used for picking colors in CSS.
+
+- `Svelte Auto Import` - Used for Svelte.
 
 [Deployment]: https://www.wscnettie.com
 [GitHubEducation]: https://education.github.com/pack
