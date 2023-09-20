@@ -1,0 +1,38 @@
+{
+	"name": "wscnettie",
+	"//versionComments1": "Add version revisions to this comment when making a push.",
+	"//versionComments2": "Add a comment to this line when making a push describing the changes made.",
+	"//versionComments3": "0 Represents the production version of the application.",
+	"//versionComments4": "0.0 Represents the development version of the application. Any major changes made to the application.",
+	"//versionComments5": "0.0.0 Represents any minor changes made to the application. A final push to a branch. A bug fix or patch.",
+	"//versionComments6": "0.0.0.0 Represents any insignificant changes made to the application. A change to a comment or a README file.",
+	"version": "0.0.4.3",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "^1.3.1",
+		"@sveltejs/kit": "^1.5.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.26.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
+		"svelte": "^3.54.0",
+		"vite": "^4.3.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@apollo/client": "^3.7.15",
+		"dotenv": "^16.3.1",
+		"graphql": "^16.6.0",
+		"svelte-apollo": "^0.5.0",
+		"svelte-icons-pack": "^2.1.0",
+		"xlsx": "^0.18.5"
+	}
+}

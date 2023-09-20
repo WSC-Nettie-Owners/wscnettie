@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<style>
+		:root {
+			--darkest: #3d3d3d;
+			--darker: #4b4b4b;
+			--dark: #7e7e7e;
+			--dark-gray: #696969;
+			--gray: #9f9f9f;
+			--light: #d2d2d2;
+			--dark-text: #303030;
+			--light-text: #d3d3d3;
+			--darkest-blue: #1e2933;
+			--darker-blue: #234c6e;
+			--dark-blue: #1c3b56;
+			--blue: #3675a9;
+			--teal: #80d0c7;
+			--red: #dc3545;
+			--green: #01c101;
+			--pink: #ec4899;
+			--purple: #8b5cf6;
+			--yellow: #ffde57;
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		html {
+			scroll-behavior: smooth;
+			overflow: overlay;
+		}
+
+		body {
+			background-color: var(--light-text);
+			background-image: linear-gradient(160deg, var(--blue) 0%, var(--teal) 100%);
+			background: radial-gradient(
+					circle at center,
+					var(--blue),
+					var(--darker-blue),
+					var(--darker-blue)
+				),
+				100%;
+			color: var(--light-text);
+		}
+	</style>
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./networking.svg" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
