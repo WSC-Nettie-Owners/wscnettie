@@ -203,6 +203,8 @@ YOU DON'T NEED TO ENTER THESE COMMANDS. `npm install` should install them for yo
 
 - `xlsx` - Used to read and write to Excel files.
 
+- `dotenv` - Used for .env files.
+
 ---
 
 ### Visual Studio Code Extensions
