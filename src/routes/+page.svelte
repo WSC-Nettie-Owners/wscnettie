@@ -7,7 +7,7 @@
 <h1>Hello world</h1>
 
 <style>
-    a {
-        color: white;
-    }
+	a {
+		color: white;
+	}
 </style>
