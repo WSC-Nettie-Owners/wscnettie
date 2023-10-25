@@ -129,19 +129,23 @@ This section outlines what I hope to get to with this project.
 ### Further Documentation
 <div name="documentation"/>
 
-This will include information about how I would like this project to look and perhaps some resources that helped me along the way.
+This will include some resources about this project.
 
-- [SvelteKit][SvelteKit] - This is the framework I'm using for this project. It's a lot like React, but it's a lot easier to use.
+- [SvelteKit][SvelteKit] - This is the framework we're using for this project. It's a lot like React, but it's a lot easier to use.
 
 - [Svelte][Svelte] - This is the framework that SvelteKit is built on.
 
 - [Vite][Vite] - This is the build tool that SvelteKit uses.
 
-- [Apollo Client][ApolloClient] - This is the GraphQL client I'm using for this project.
+- [Apollo Client][ApolloClient] - This is the GraphQL client we're using for this project.
 
-- [GraphQL][GraphQL] - This is the query language I'm using for this project.
+- [GraphQL][GraphQL] - This is the query language we're using for this project.
 
-- [Markdown Cheatsheet][MarkdownCheatsheet] - This is a cheatsheet for Markdown. This is what I use to write this README and many others.
+- [Markdown Cheatsheet][MarkdownCheatsheet] - This is a cheatsheet for Markdown. This is what we use to write this README and many others.
+
+- [Hasura][Hasura] - This is the GraphQL engine we're using for this project. This takes care of the Graphql API and database.
+
+- [Digital Ocean Spaces][DigitalOceanSpaces] - This is the object storage we're using for this project. This is where we store the images.
 
 ---
 
@@ -198,6 +202,8 @@ YOU DON'T NEED TO ENTER THESE COMMANDS. `npm install` should install them for yo
 - `svelte-icons-pack` - Used for Svelte Icons.
 
 - `xlsx` - Used to read and write to Excel files.
+
+- `dotenv` - Used for .env files.
 
 ---
 
@@ -274,3 +280,5 @@ This section outlines the extensions I use for this project. These are very help
 [ApolloClient]: https://www.apollographql.com/docs/react/
 [GraphQL]: https://graphql.org/learn/
 [MarkdownCheatsheet]: https://www.youtube.com/watch?v=pTCROLZLhDM
+[Hasura]: https://hasura.io/docs/latest/index/
+[DigitalOceanSpaces]: https://docs.digitalocean.com/products/spaces/
