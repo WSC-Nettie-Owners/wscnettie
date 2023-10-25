@@ -160,7 +160,7 @@ This section outlines the commands I use to run this project.
 
 - `nvm use 19.5.0` Run this before running any of the following commands.
 
-- `npm -v` Check npm version, verify you're on 19.5.0
+- `node -v` Check node version, verify you're on 19.5.0
 
 - `npm install` - Installs the dependencies for this project.
 
