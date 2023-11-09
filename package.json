@@ -6,7 +6,7 @@
 	"//versionComments4": "0.0 Represents the development version of the application. Any major changes made to the application.",
 	"//versionComments5": "0.0.0 Represents any minor changes made to the application. A final push to a branch. A bug fix or patch.",
 	"//versionComments6": "0.0.0.0 Represents any insignificant changes made to the application. A change to a comment or a README file.",
-	"version": "0.0.4.4",
+	"version": "0.0.4.5",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -30,7 +30,7 @@
 	"dependencies": {
 		"@apollo/client": "^3.7.15",
 		"dotenv": "^16.3.1",
-		"graphql": "^16.6.0",
+		"graphql": "^16.8.1",
 		"svelte-apollo": "^0.5.0",
 		"svelte-icons-pack": "^2.1.0",
 		"xlsx": "^0.18.5"
