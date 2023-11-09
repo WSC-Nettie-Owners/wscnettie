@@ -9,6 +9,6 @@
 
 <style>
 	a {
-		color: white;
+		color: red;
 	}
 </style>
